@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Школьные кружки</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+   </head>
+   </main>
+  <footer class="bg-dark text-white py-4">
+    <div class="container">Школьные кружки</div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+  <header class="bg-dark py-3">
+  <nav class="container d-flex flex-wrap align-items-center justify-content-between gap-3" aria-label="Разделы страницы">
+    <a class="text-white fw-bold text-decoration-none" href="#top">Школьные кружки</a>
+    <div class="d-flex flex-wrap gap-3">
+      <a class="text-white" href="#clubs">Кружки</a>
+      <a class="text-white" href="#contacts">Контакты</a>
+    </div>
+  </nav>
+</header>
+<section class="club-hero py-5">
+  <div class="container">
+    <h1>Найдите свой кружок</h1>
+    <p class="lead">Изучаем новое, создаём проекты и работаем в команде.</p>
+    <a class="btn btn-primary" href="#clubs">Посмотреть кружки</a>
+  </div>
+</section>
+<section class="container py-5" id="clubs">
+  <h2 class="mb-4">Наши кружки</h2>
+  <div class="row g-3">
+    <div class="col-12 col-md-6 col-lg-4">
+      Здесь будет карточка
+    </div>
+  </div>
+</section>
+<article class="card h-100">
+  <div class="card-body">
+    <h3 class="card-title h5">Робототехника</h3>
+    <p class="card-text">Собираем и программируем модели.</p>
+    <p>Понедельник, 16:00</p>
+    <a href="#contacts" class="btn btn-outline-primary">Как записаться</a>
+  </div>
+</article>
+    <arcticle class="alert alert-info">
+        <div class="card-body">
+            <p>Робототехника-это сконструирование роботов которые будут нужны просто так для хозяйства</p>
+   </div>
+    </arcticle>
+   <arcticle class="card h-100">
+        <div class="card-body">
+            <h3 class="card-title h5">Дизайн</h3>
+            <p class="card-text">Рисуем и придумываем макет одежды</p>
+            <p>Вторник, 15:00</p>
+            <a href="#contacts" class="btn btn-primary">Как записаться</a>
+        </div>
+    </arcticle>
+    <arcticle class="alert alert-info">
+        <div class="card-body">
+            <p>Дизайн-это проектирование собственного стиля одежды и не только</p>
+   </div>
+    </arcticle>
+<section class="container pb-5" id="contacts">
+  <h2>Как записаться</h2>
+  <p>Обратитесь к преподавателю в кабинете 101.</p>
+  <form>
+    <div class="mb-3">
+      <label class="form-label" for="student-name">Имя</label>
+      <input class="form-control" id="student-name" name="student-name" type="text">
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="club-choice">Кружок</label>
+      <select class="form-select" id="club-choice" name="club-choice">
+        <option>Робототехника</option>
+        <option>Дизайн</option>
+        <option>Программирование</option>
+      </select>
+    </div>
+    <button class="btn btn-secondary" type="button">Отправить (макет)</button>
+  </form>
+</section>
+</body>
+</html>
